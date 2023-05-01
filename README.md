@@ -23,7 +23,7 @@ This script automatically inserts the file path as a comment at the top of each 
 
 ## Usage
 
-1. [Download (PENDING)](https://raw.githubusercontent.com/CarlosUlisesOchoa/pending.ps1) the `add-path.ps1` script.
+1. [Download](https://raw.githubusercontent.com/CarlosUlisesOchoa/Path-as-a-comment-PowerShell/main/add-path.ps1) the `add-path.ps1` script.
 2. Save the script to a directory on your computer.
 3. Open PowerShell and navigate to the directory where the script is saved.
 4. Run the script with the `-d` parameter and specify the directory
