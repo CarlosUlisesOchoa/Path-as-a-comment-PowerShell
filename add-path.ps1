@@ -40,7 +40,7 @@ function Get-ExpectedPath {
 $sourceDir = $d
 $parentSourceDir = (Split-Path -Parent $sourceDir) + '\'
 
-Write-Host "Starting the process of checking files in subdirectories: $sourceDir"
+Write-Host "[Path as a comment]: Trying to add the path as a comment of all files inside: $sourceDir"
 
 Get-ChildItem -Path $sourceDir -Recurse -File | ForEach-Object {
     $filePath = $_.FullName
@@ -59,9 +59,9 @@ Get-ChildItem -Path $sourceDir -Recurse -File | ForEach-Object {
             $content = Get-Content -Path $filePath -Raw
             $newContent = $commentSyntax + " " + $expectedPath.TrimStart('\') + "`n" + $content.Replace("`r`n", "`n")
             Set-Content -Path $filePath -Value $newContent
-            Write-Host "Added path comment to file: $filePath"
+            Write-Host "[Path as a comment]: Added path comment to file: $filePath"
         }
     }
 }
 
-Write-Host "All files have been checked in subdirectories: $sourceDir"
+Write-Host "[Path as a comment]: Process completed in the dir -> $sourceDir"
