@@ -1,4 +1,13 @@
-# Path as a comment (PowerShell Script)
+<div align="center">
+  <h1>Path as a comment (PowerShell Script)</h1>
+  <a href="https://github.com/CarlosUlisesOchoa/Path-as-a-comment-PowerShell"><img src="https://img.shields.io/badge/latest%20release-v1.0.0-blue" /></a>
+  <a href="https://github.com/CarlosUlisesOchoa/Path-as-a-comment-PowerShell"><img src="https://img.shields.io/badge/coverage-100%25-brightgreen" /></a>
+  <a href="https://github.com/CarlosUlisesOchoa/Path-as-a-comment-PowerShell"><img src="https://img.shields.io/tokei/lines/github/carlosulisesochoa/Path-as-a-comment-PowerShell" /></a>
+  <a href="https://github.com/CarlosUlisesOchoa/Path-as-a-comment-PowerShell"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen" /></a>
+  <a href="https://github.com/CarlosUlisesOchoa/Path-as-a-comment-PowerShell/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" /></a>
+</div>
+
+<br/>
 
 This script automatically inserts the file path as a comment at the top of each compatible file. This helps developers quickly identify the location of a file while preventing any malfunctions (because the path is added as a comment)
 
